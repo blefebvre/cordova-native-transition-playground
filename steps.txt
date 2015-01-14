@@ -1,0 +1,9 @@
+cordova create native-transition-demo
+cd native-transition-demo/
+cordova platform add ios
+cordova plugin add org.apache.cordova.splashscreen
+cordova plugin add https://github.com/Telerik-Verified-Plugins/NativePageTransitions
+
+add to widget spec in config.xml:
+	<preference name="StatusBarOverlaysWebView" value="false"/>
+
