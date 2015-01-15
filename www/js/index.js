@@ -41,7 +41,7 @@ var app = {
         window.plugins.nativepagetransitions.slide(
             {
                 'href': destination,
-                'fixedPixelsTop': 40,
+                //'fixedPixelsTop': 40,
                 'fixedPixelsBottom': 40
             },
             function success(msg) {
@@ -57,7 +57,7 @@ var app = {
             {
                 'direction': 'right',
                 'href': 'index.html',
-                'fixedPixelsTop': 40,
+                //'fixedPixelsTop': 40,
                 'fixedPixelsBottom': 40
             },
             function success(msg) {

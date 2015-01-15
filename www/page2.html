@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body {
+                height: 100%;
+                padding: 0;
+                margin: 0;
+            }
+
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 40px;
+                background-color: blue;
+                color: white;
+                line-height: 40px;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
     <body>
         <h1>Page 2</h1>
 
         <button onclick="app.goHome()">Go Home</button>
+
+        <footer>
+            Footer content page 2
+        </footer>
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
